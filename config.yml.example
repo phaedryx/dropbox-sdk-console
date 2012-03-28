@@ -1,4 +1,5 @@
-dropbox:
-  app_key: YOURKEY
-  app_secret: YOURSECRET
-  access_type: :app_folder
+app_key: APPKEY
+app_secret: APPSECRET
+access_type: :app_folder
+user_key: USERKEY
+user_secret: USERSECRET
