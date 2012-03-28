@@ -1,7 +1,9 @@
-I wanted to understand the CLI example from the [Dropbox SDK](https://www.dropbox.com/developers/reference/sdk) better, so I rewrote it to use IRB.
+I wanted to understand the CLI example from the [Dropbox SDK](https://www.dropbox.com/developers/reference/sdk) better, so I rewrote with IRB.
 
 Example:
+
     ruby console.rb
+
     > @session
     > @client
     > irb @client
