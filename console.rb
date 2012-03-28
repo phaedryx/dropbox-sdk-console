@@ -10,8 +10,7 @@ require 'dropbox_sdk'
 begin
   CONFIG = YAML.load_file("config.yml")
 rescue Errno::ENOENT
-  puts "Can't find config.yml file"
-  exit
+  abort "Can't find config.yml file"
 end
 
 IRB.start
