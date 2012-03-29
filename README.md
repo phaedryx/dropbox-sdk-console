@@ -10,6 +10,8 @@ Example:
     > @client
     > irb @client
     > help
+    > mkdir 'foo'
     > ls
+    > ls 'foo'
     > info
     >
