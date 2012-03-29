@@ -8,6 +8,10 @@ module Console
       @dropbox_client = DropboxClient.new(session.dropbox_session, session.access_type)
     end
 
+    def help
+      puts "methods: " + self.class.instance_methods(false).sort.join(' ')
+    end
+
     def ls(path = '/')
       metadata = @dropbox_client.metadata(path)
       metadata['contents'].each {|file| puts file['path']}

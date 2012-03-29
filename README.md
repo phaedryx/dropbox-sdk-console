@@ -5,11 +5,11 @@ Example:
 
     ruby console.rb
 
+
     > @session
     > @client
     > irb @client
+    > help
     > ls
     > info
-    > mv 'src', 'dest'
-    > @dropbox_client
     >
