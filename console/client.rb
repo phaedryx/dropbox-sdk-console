@@ -41,5 +41,9 @@ module Console
     def info
       puts @dropbox_client.account_info
     end
+
+    def metadata(file)
+      puts @dropbox_client.metadata(file)
+    end
   end
 end
