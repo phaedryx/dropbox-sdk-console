@@ -1,5 +1,5 @@
 app_key: APPKEY
 app_secret: APPSECRET
 access_type: :app_folder
-user_key: USERKEY
-user_secret: USERSECRET
+access_token_key: USERKEY
+access_token_secret: USERSECRET
